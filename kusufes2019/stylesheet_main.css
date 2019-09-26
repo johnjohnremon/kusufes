@@ -1,0 +1,195 @@
+html {
+    font-size: 12px;
+}
+
+.guest img{
+    width: 70%;
+}
+
+@media only screen and (min-width:651px) {
+    html {
+      font-size: 14px;
+    }
+
+    .guest{
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        align-items: flex-start;
+    }
+
+    .guest img{
+        width: 30%;
+    }
+}
+   
+@media only screen and (min-width:961px) {
+    html {
+      font-size: 16px;
+    }
+
+    .guest{
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        align-items: flex-start;
+    }
+
+    .guest img{
+        width: 30%;
+    }
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    display: flex;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+
+.header .container{
+    display: flex;
+}
+
+.header-logo {
+    padding: 8px 8px;
+    display: block;
+    width: 128px;
+    height: 90px;
+}
+
+.header-list{
+    list-style: none;
+    display: flex;
+    padding-left: 20px !important;
+}
+
+.header-list li{
+    font-size: 1.125rem;
+    padding: 0px 15px;
+}
+
+.header-list a{
+    text-decoration: none !important;
+}
+
+.header-list a:link { color: #000000; }
+.header-list a:visited { color: #949494; }
+.header-list a:hover { color: #666666; }
+.header-list a:active { color: #808080; }
+
+.note{
+    text-align: right;
+    padding: 16px 50px;
+}
+
+body{
+    background: url(/kusufes2019/images/background.png), -moz-linear-gradient(left, #ffcc88, #ffb24c);
+    background: url(/kusufes2019/images/background.png), -webkit-linear-gradient(left, #ffcc88, #ffb24c);
+    background: url(/kusufes2019/images/background.png), linear-gradient(to right, #ffcc88, #ffb24c) ;
+    background-size: cover;
+    font-family: serif !important;
+}
+
+.body{
+    padding: 0px 50px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+
+.body-txt{
+    font-size: 1.25rem;
+}
+
+.body h2{
+    margin-top: 80px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000000;
+    font-weight: bolder;
+}
+
+.body h3{
+    margin-top:40px;
+    margin-bottom:15px;
+    padding-bottom:10px;
+}
+
+.slider{
+    padding-top: 36px;
+    padding-left: 0px;
+    width: 100%;
+    list-style: none;
+    top: 0;
+}
+
+.slider .slick-slide:not(.slick-center){
+    -webkit-filter: blur(5px);
+    -moz-filter:blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.slider img{
+    height: auto;
+    width: 100%;
+}
+.page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #00a2ff;
+    border-radius: 50%;
+}
+.page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+.page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f102';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+.map{
+    width: 100%;
+}
+
+.img{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+h4{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.guest{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.guest p{
+    padding-left: 20px;
+}
